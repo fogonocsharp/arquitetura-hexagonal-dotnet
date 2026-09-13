@@ -1,0 +1,12 @@
+@host = http://localhost:5295
+
+POST {{host}}/tarefas
+Content-Type: application/json
+
+{
+    "titulo": "Gravar o primeiro vídeo do Fogo no C#"
+}
+
+###
+
+GET {{host}}/tarefas

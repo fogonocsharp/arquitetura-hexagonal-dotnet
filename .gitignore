@@ -1,0 +1,33 @@
+# Build
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+publish/
+*.binlog
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# Testes
+[Tt]est[Rr]esult*/
+*.coverage
+coverage*.json
+coverage*.xml
+
+# Segredos e configurações locais
+*.pfx
+*.snk
+appsettings.*.local.json
+secrets.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
